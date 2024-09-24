@@ -1,0 +1,44 @@
+body{
+    background-color: bisque;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 450px 0;
+}
+
+.social-icon {
+    text-decoration: none;
+    color: #333;
+    padding: 30px;
+    border-radius: 50%;
+    transition: color 0.3s, border-bottom 0.3s;
+    font-size: 2.5rem;
+}
+
+.social-icon.facebook:hover {
+    color: #3b5998;
+    border-bottom: 5px solid #3b5998;
+}
+
+.social-icon.instagram:hover {
+    color: #e4405f;
+    border-bottom: 5px solid #e4405f;
+}
+
+.social-icon.whatsapp:hover {
+    color: #25D366;
+    border-bottom: 5px solid #25D366;
+}
+
+.social-icon.telegram:hover {
+    color: #0088cc;
+    border-bottom: 5px solid #0088cc;
+}
+
+.social-icon.github:hover {
+    color: #333;
+    border-bottom: 5px solid #333;
+}
